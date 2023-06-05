@@ -1,0 +1,16 @@
+.boton{
+    min-height: 40px;
+    min-width: 100px;
+    padding: 10px 25px;
+    border-radius: 4px;
+    color: #fff;
+    cursor:pointer;
+    border: 2px solid;
+}
+
+.btn-primary{
+    background-color: #023047;
+}
+.btn-second{
+    background-color: #472C1B;
+}
