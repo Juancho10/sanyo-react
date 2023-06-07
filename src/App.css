@@ -2,18 +2,43 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
 }
 .logo {
   height: 20em;
-  padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
+  
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #603808);
+  transition: 0.5s;
 }
-.content-login{
-  max-width: 1200px;
+.login-content{
+  background-color: #f3d5b5bd;
+  border-radius: 10px;
+  margin: 0 auto;
+  max-width: 500px;
+  -webkit-box-shadow: 10px 10px 55px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 55px 1px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 55px 1px rgba(0,0,0,0.75);
+}
+.login-form{
+  display: grid;
   place-items: center;
+  gap: 1em;
+  padding: 1em;
+}
+.login-input{
+  width: 25rem;  
+  border-radius: 2px;
+  padding: 1rem;
+  font-size: 20px;
+  background: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: #023047;
+}
+.login-input:hover{
+  border-color: #FFEDD8;
 }

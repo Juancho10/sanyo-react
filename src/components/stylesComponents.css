@@ -6,11 +6,26 @@
     color: #fff;
     cursor:pointer;
     border: 2px solid;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.2em;
+    width: 100%;
+    border: none;
 }
 
 .btn-primary{
     background-color: #023047;
 }
+.btn-primary:hover{
+    transition: .3s;
+    background-color: #219EBC;
+    color: #023047;
+}
+
 .btn-second{
     background-color: #472C1B;
+}
+.btn-second:hover{
+    transition: .3s;
+    background-color: #B39C4D;
+    color: #472C1B;
 }

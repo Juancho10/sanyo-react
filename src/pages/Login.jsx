@@ -4,20 +4,16 @@ import {Button}  from '../components/Button.jsx'
 export function Login(){
     return(
         <>
-            <main className='content-login'>
+            <main className='login-content'>
                 <div>
                     <img src={sanyoLogo} className='logo' alt="React Logo" />
                 </div>
-                <div>
-                    <label htmlFor="">Usuario</label>
-                    <input type="text" />
-                    <label htmlFor="">Contraseña</label>
-                    <input type="password" />
-                </div>
-                
-
-                <Button texto="Ingresar" variant="boton btn-primary"/>
-                <Button texto="Registrarse" variant="boton btn-second"/>
+                <form className='login-form'>
+                    <input className='login-input' type="text"  placeholder='Usuario'/>
+                    <input className='login-input'type="password" placeholder='Contraseña'/>
+                    <Button texto="Ingresar" variant="boton btn-primary"/>
+                    <Button texto="Registrarse" variant="boton btn-second"/>
+                </form>
             </main>
         </>
     );
